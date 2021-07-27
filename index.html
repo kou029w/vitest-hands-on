@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>jest-hands-on</title>
+    <!-- @license https://cdn.jsdelivr.net/npm/@exampledev/new.css/LICENSE -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@exampledev/new.css/new.min.css"
+    />
+  </head>
+  <body>
+    <h1>Jest ハンズオン</h1>
+    <p>CodeSandboxの場合、[Tests]のパネルを開いて、テスト結果を確認します。</p>
+    <iframe
+      src="https://codesandbox.io/embed/github/kou029w/jest-hands-on?codemirror=1&module=%2Fsrc%2Fsum.test.js&previewwindow=tests"
+      style="
+        width: 100%;
+        height: 500px;
+        border: 0;
+        border-radius: 4px;
+        overflow: hidden;
+      "
+    ></iframe>
+
+    <p>
+      ローカル環境の場合、
+      <code>npm test</code>
+      コマンドを実行して、テスト結果を確認します。
+    </p>
+
+    <h2>ドキュメント</h2>
+    <p>
+      リファレンスとして
+      <a href="https://jestjs.io/ja/docs/getting-started">Jestのドキュメント</a>
+      を使用します。ご参照ください。
+    </p>
+
+    <h2>構成</h2>
+    <p>
+      src/*.test.js がテスト本体です。
+      ファイルを配置することによって実行可能です。
+    </p>
+
+    <ul>
+      <li>はじめましょう … sum.js, sum.test.js</li>
+      <li>
+        Matcherを使用する … toBe.test.js, toEqual.test.js, notToBe.test.js
+      </li>
+      <li>非同期コードのテスト … callback.test.js, promise.test.js</li>
+      <li>セットアップと破棄 … setupTeardown.test.js, scope.test.js</li>
+      <li>モック関数 … mock.test.js</li>
+    </ul>
+  </body>
+</html>
