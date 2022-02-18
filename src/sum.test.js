@@ -1,7 +1,5 @@
-/** @license https://github.com/facebook/jest/blob/master/LICENSE */
+import sum from "./sum";
 
-const sum = require("./sum");
-
-test("adds 1 + 2 to equal 3", () => {
+test("1 と 2 の合計は 3", () => {
   expect(sum(1, 2)).toBe(3);
 });
