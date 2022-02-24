@@ -1,3 +1,17 @@
-# Jest ハンズオン
+# Jestではじめるテスト
 
-[![Edit in CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/kou029w/jest-hands-on?file=/src/sum.test.js)
+## ローカル環境でのビルド
+
+### 前提
+
+- Ubuntu 20.04 LTS
+- Homebrew
+
+### 手順
+
+下記のコマンドを実行すると `book` ディレクトリ以下にファイルが生成されます。
+
+```sh
+brew bundle
+mdbook build
+```

@@ -1,0 +1,9 @@
+[book]
+language = "ja"
+title = "Jestではじめるテスト"
+authors = ["Kohei Watanabe"]
+
+[output.html]
+site-url = "/jest-hands-on/"
+git-repository-url = "https://github.com/kou029w/jest-hands-on"
+edit-url-template = "https://github.com/kou029w/jest-hands-on/edit/main/{path}"

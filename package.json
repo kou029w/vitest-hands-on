@@ -3,15 +3,19 @@
   "version": "1.0.0",
   "private": true,
   "license": "CC0-1.0",
+  "main": "templates/template/main.js",
   "type": "module",
+  "workspaces": [
+    "templates/*"
+  ],
   "scripts": {
-    "test": "jest",
-    "start": "parcel index.html --open",
-    "build": "parcel build index.html"
+    "test": "jest && yarn workspaces run test",
+    "format": "prettier --write ."
   },
   "devDependencies": {
     "@babel/preset-env": "^7.16.11",
     "jest": "^27.5.1",
-    "parcel": "^2.3.1"
+    "prettier-plugin-md-nocjsp": "^1.2.0",
+    "prettier": "^2.5.1"
   }
 }
