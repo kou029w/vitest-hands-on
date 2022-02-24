@@ -15,11 +15,11 @@ Jestの代表的な機能を紹介します。
 <iframe
   src="https://codesandbox.io/embed/github/kou029w/jest-hands-on/tree/main/templates/basic?codemirror=1&hidenavigation=1&previewwindow=tests&view=split&module=%2FtoBe.test.js"
   style="
-    width:100%;
-    height:500px;
-    border:0;
+    width: 100%;
+    height: 500px;
+    border: 0;
     border-radius: 4px;
-    overflow:hidden;
+    overflow: hidden;
   "
   title="basic"
   sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
@@ -64,11 +64,11 @@ Jestは、`test` に渡す関数の前に `async` キーワードを記述する
 <iframe
   src="https://codesandbox.io/embed/github/kou029w/jest-hands-on/tree/main/templates/promise?codemirror=1&hidenavigation=1&previewwindow=tests&view=split&module=%2Fpromise.test.js"
   style="
-    width:100%;
-    height:500px;
-    border:0;
+    width: 100%;
+    height: 500px;
+    border: 0;
     border-radius: 4px;
-    overflow:hidden;
+    overflow: hidden;
   "
   title="promise"
   sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
@@ -83,11 +83,11 @@ Jestは、`test` に渡す関数の前に `async` キーワードを記述する
 <iframe
   src="https://codesandbox.io/embed/github/kou029w/jest-hands-on/tree/main/templates/scope?codemirror=1&hidenavigation=1&previewwindow=tests&view=split&module=%2Fscope.test.js"
   style="
-    width:100%;
-    height:500px;
-    border:0;
+    width: 100%;
+    height: 500px;
+    border: 0;
     border-radius: 4px;
-    overflow:hidden;
+    overflow: hidden;
   "
   title="scope"
   sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
@@ -102,11 +102,11 @@ Jestは、`test` に渡す関数の前に `async` キーワードを記述する
 <iframe
   src="https://codesandbox.io/embed/github/kou029w/jest-hands-on/tree/main/templates/mock?codemirror=1&hidenavigation=1&previewwindow=tests&view=split&module=%2Fmock.test.js"
   style="
-    width:100%;
-    height:500px;
-    border:0;
+    width: 100%;
+    height: 500px;
+    border: 0;
     border-radius: 4px;
-    overflow:hidden;
+    overflow: hidden;
   "
   title="mock"
   sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"

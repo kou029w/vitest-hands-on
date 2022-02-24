@@ -7,11 +7,11 @@ Jestを使ってどうやってテストするのか？といった疑問に答�
 <iframe
   src="https://codesandbox.io/embed/github/kou029w/jest-hands-on/tree/main/templates/template?codemirror=1&hidenavigation=1&previewwindow=tests&view=split&module=%2Fsum.test.js"
   style="
-    width:100%;
-    height:500px;
-    border:0;
+    width: 100%;
+    height: 500px;
+    border: 0;
     border-radius: 4px;
-    overflow:hidden;
+    overflow: hidden;
   "
   title="template"
   sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
