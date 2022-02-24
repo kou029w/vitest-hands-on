@@ -10,6 +10,7 @@ Jestの代表的な機能を紹介します。
 
 - `toBe` … 与えた値との同一性 (`===`) を検証します
 - `toEqual` … オブジェクトまたは配列のすべてのプロパティの同一性を再帰的に検証します
+- `not` … 検証の結果を反転させます
 
 <iframe
   src="https://codesandbox.io/embed/github/kou029w/jest-hands-on/tree/main/templates/basic?codemirror=1&hidenavigation=1&previewwindow=tests&view=split&module=%2FtoBe.test.js"
