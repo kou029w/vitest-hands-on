@@ -28,7 +28,7 @@ npx jest
 $ npx jest
 No tests found, exiting with code 1
 Run with `--passWithNoTests` to exit with code 0
-In /home/kou029w/intro-to-software-testing
+In /home/user/projects/jest-hands-on
   11 files checked.
   testMatch: **/__tests__/**/*.[jt]s?(x), **/?(*.)+(spec|test).[tj]s?(x) - 0 matches
   testPathIgnorePatterns: /node_modules/ - 11 matches
