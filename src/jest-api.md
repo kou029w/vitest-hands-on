@@ -81,7 +81,7 @@ Jestは、`test` に渡す関数の前に `async` キーワードを記述する
 `beforeEach` と `afterEach` を使用することでテストの実行の前に繰り返し行う準備や、後片付けの処理を宣言できます。
 
 <iframe
-  src="https://codesandbox.io/embed/github/kou029w/jest-hands-on/tree/main/templates/scope?codemirror=1&hidenavigation=1&previewwindow=tests&view=split&module=%2Fscope.test.js"
+  src="https://codesandbox.io/embed/github/kou029w/jest-hands-on/tree/main/templates/scope?codemirror=1&hidenavigation=1&previewwindow=tests&view=split&expanddevtools=1&&module=%2Fscope.test.js"
   style="
     width: 100%;
     height: 500px;
