@@ -30,7 +30,7 @@ ESMのJavaScriptのコードを変換するには、たとえば、下記の方�
 npm i -D @babel/preset-env
 ```
 
-Babelには、プリセットと呼ばれる前もって調整済みの設定を行うためのパッケージがあります。
+Babelには、調整済みの設定を利用するためのプリセットと呼ばれるパッケージがあります。
 `@babel/preset-env` は、Babelが公式で提供する一般的なJavaScriptの変換を行うためのプリセットです。
 
 `babel.config.json` を作成し、下記の設定を書き加えます。
