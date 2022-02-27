@@ -1,7 +1,7 @@
 # 事前準備
 
-JestはNode.js上で実行します。
-まずはじめにNode.jsの実行環境を構築してはじめましょう。
+JestはNode.jsで実行します。
+あらかじめNode.jsの実行環境を構築してからはじめます。
 
 ## StackBlitzではじめる
 
