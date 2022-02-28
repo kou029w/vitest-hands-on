@@ -9,8 +9,9 @@
 <iframe
   src="https://www.slideshare.net/slideshow/embed_code/key/GcQ7SzVAQNOpWU"
   style="
-    width: 595px;
-    height: 485px;
+    max-width: 595px;
+    width: 100%;
+    aspect-ratio: 595 / 485;
     border: 0;
   "
   allow="fullscreen"
@@ -23,8 +24,8 @@
 <iframe
   src="https://www.youtube-nocookie.com/embed/vrbMKbdV6xY"
   style="
-    width: 560px;
-    height: 315px;
+    width: 100%;
+    aspect-ratio: 560 / 315;
     border: 0;
   "
   allowfullscreen
