@@ -9,4 +9,5 @@
 - [テストの実践 ――「うるう年」問題](practices.md)
 - [テストの作法](test-writing-style.md)
 - [Jestの機能](jest-api.md)
+- [参考文献・動画](references.md)
 - [質問・提案・問題の報告](issues.md)
