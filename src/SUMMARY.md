@@ -1,6 +1,6 @@
 # 目次
 
-- [Jestではじめるテスト](basic.md)
+- [Jestではじめるテスト](README.md)
 - [Jestとは](about-jest.md)
 - [事前準備](preparation.md)
 - [はじめてのテスト](getting-started.md)
