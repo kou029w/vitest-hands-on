@@ -23,11 +23,7 @@ npx jest --watchAll
 
 この設定を行うと、`npm test` コマンドでJestを実行できるようになります。
 
-```bash
-npm set-script test jest
-```
-
-実行すると、`package.json` には下記のような設定が追加されます。
+`package.json` の `scripts` プロパティの中を下記のように変更します。
 
 ```json
 {
