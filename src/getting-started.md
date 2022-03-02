@@ -41,10 +41,7 @@ Pattern:  - 0 matches
 次のファイルを作成します。
 
 ```js
-// hello.test.js
-test("1と2の合計は3です", () => {
-  expect(1 + 2).toBe(3);
-});
+{{#include getting-started/hello.test.js}}
 ```
 
 この作成した `hello.test.js` は、`npx jest` コマンドを実行するときにテストとして実行されるようになります。
@@ -79,9 +76,7 @@ Ran all test suites.
 はじめてのテストのコード:
 
 ```js
-test("1と2の合計は3です", () => {
-  expect(1 + 2).toBe(3);
-});
+{{#include getting-started/hello.test.js}}
 ```
 
 このコードは、「1と2の合計は3です」というテストを意味します。
