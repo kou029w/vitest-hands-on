@@ -11,14 +11,5 @@
 例:
 
 ```js
-test("正しくJSONをパースできる", () => {
-  // 準備
-  const json = `{ "name": "太郎", "age": 20 }`;
-
-  // 実行
-  const parsed = JSON.parse(json);
-
-  // 検証
-  expect(parsed).toEqual({ name: "太郎", age: 20 });
-});
+{{#include test-writing-style/aaa-pattern.test.js}}
 ```
