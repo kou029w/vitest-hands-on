@@ -108,7 +108,7 @@ npx jest --watchAll
 {{#include practices/isLeapYear.js}}
 ```
 
-ファイルを作成したら、テスト側でも `import` 文によって実装した関数を読み込みます。
+ファイルを作成したら、テスト側で `import` 文によって実装した関数を読み込みます。
 
 ```js
 // isLeapYear.test.js
