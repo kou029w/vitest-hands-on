@@ -13,16 +13,15 @@ Jestの代表的な機能を紹介します。
 - `not` … 検証の結果を反転させます
 
 <iframe
-  src="https://codesandbox.io/embed/github/kou029w/jest-hands-on/tree/main/templates/basic?codemirror=1&hidenavigation=1&previewwindow=tests&view=split&module=%2FtoBe.test.js"
+  src="https://stackblitz.com/github/kou029w/jest-hands-on/tree/main/templates/basic?embed=1&hideExplorer=1&view=editor&terminal=test&file=toBe.test.js"
   style="
     width: 100%;
-    height: 500px;
+    height: 640px;
     border: 0;
     border-radius: 4px;
     overflow: hidden;
   "
   title="basic"
-  sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
 ></iframe>
 
 ### 真偽値とそれに類する値の検証
@@ -62,16 +61,15 @@ Jestの代表的な機能を紹介します。
 Jestは、`test` に渡す関数の前に `async` キーワードを記述するだけで、非同期テストを実行できます。
 
 <iframe
-  src="https://codesandbox.io/embed/github/kou029w/jest-hands-on/tree/main/templates/promise?codemirror=1&hidenavigation=1&previewwindow=tests&view=split&module=%2Fpromise.test.js"
+  src="https://stackblitz.com/github/kou029w/jest-hands-on/tree/main/templates/promise?ctl=1&embed=1&hideExplorer=1&view=editor&terminal=test&file=promise.test.js"
   style="
     width: 100%;
-    height: 500px;
+    height: 640px;
     border: 0;
     border-radius: 4px;
     overflow: hidden;
   "
   title="promise"
-  sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
 ></iframe>
 
 より詳しい情報は [Jest公式ドキュメント Async/Await](https://jestjs.io/ja/docs/asynchronous#asyncawait) を参照してください。
@@ -81,16 +79,15 @@ Jestは、`test` に渡す関数の前に `async` キーワードを記述する
 `beforeEach` と `afterEach` を使用することでテストの実行の前に繰り返し行う準備や、後片付けの処理を宣言できます。
 
 <iframe
-  src="https://codesandbox.io/embed/github/kou029w/jest-hands-on/tree/main/templates/scope?codemirror=1&hidenavigation=1&previewwindow=tests&view=split&expanddevtools=1&&module=%2Fscope.test.js"
+  src="https://stackblitz.com/github/kou029w/jest-hands-on/tree/main/templates/scope?ctl=1&embed=1&hideExplorer=1&view=editor&terminal=test&expanddevtools=1&&file=scope.test.js"
   style="
     width: 100%;
-    height: 500px;
+    height: 640px;
     border: 0;
     border-radius: 4px;
     overflow: hidden;
   "
   title="scope"
-  sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
 ></iframe>
 
 より詳しい情報は [Jest公式ドキュメント セットアップと破棄](https://jestjs.io/ja/docs/setup-teardown) を参照してください。
@@ -100,16 +97,15 @@ Jestは、`test` に渡す関数の前に `async` キーワードを記述する
 モック関数を使用することでコード間の繋がりをテストできます。
 
 <iframe
-  src="https://codesandbox.io/embed/github/kou029w/jest-hands-on/tree/main/templates/mock?codemirror=1&hidenavigation=1&previewwindow=tests&view=split&module=%2Fmock.test.js"
+  src="https://stackblitz.com/github/kou029w/jest-hands-on/tree/main/templates/mock?ctl=1&embed=1&hideExplorer=1&view=editor&terminal=test&file=mock.test.js"
   style="
     width: 100%;
-    height: 500px;
+    height: 640px;
     border: 0;
     border-radius: 4px;
     overflow: hidden;
   "
   title="mock"
-  sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
 ></iframe>
 
 より詳しい情報は [Jest公式ドキュメント モック関数](https://jestjs.io/ja/docs/mock-functions) を参照してください。
