@@ -13,7 +13,7 @@ Jestの代表的な機能を紹介します。
 - `not` … 検証の結果を反転させます
 
 <iframe
-  src="https://stackblitz.com/github/kou029w/jest-hands-on/tree/main/templates/basic?embed=1&view=editor&terminal=test&file=toBe.test.js"
+  src="https://stackblitz.com/github/kou029w/jest-hands-on/tree/main/templates/basic?embed=1&view=editor&terminal=test&file=notToBe.test.js,toEqual.test.js,toBe.test.js"
   style="
     width: 100%;
     height: 640px;
