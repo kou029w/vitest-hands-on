@@ -54,7 +54,7 @@ Jestの代表的な機能を紹介します。
 
 ### その他
 
-より詳しい情報は [Jest公式リファレンス](https://jestjs.io/ja/docs/expect) を参照してください。
+より詳しい情報は [Jest公式リファレンス](https://jestjs.io/ja/docs/expect) をご参照ください。
 
 ## Promise
 
@@ -72,7 +72,7 @@ Jestは、`test` に渡す関数の前に `async` キーワードを記述する
   title="promise"
 ></iframe>
 
-より詳しい情報は [Jest公式ドキュメント Async/Await](https://jestjs.io/ja/docs/asynchronous#asyncawait) を参照してください。
+より詳しい情報は [Jest公式ドキュメント Async/Await](https://jestjs.io/ja/docs/asynchronous#asyncawait) をご参照ください。
 
 ## beforeEach と afterEach
 
@@ -90,7 +90,7 @@ Jestは、`test` に渡す関数の前に `async` キーワードを記述する
   title="scope"
 ></iframe>
 
-より詳しい情報は [Jest公式ドキュメント セットアップと破棄](https://jestjs.io/ja/docs/setup-teardown) を参照してください。
+より詳しい情報は [Jest公式ドキュメント セットアップと破棄](https://jestjs.io/ja/docs/setup-teardown) をご参照ください。
 
 ## モック
 
@@ -108,4 +108,4 @@ Jestは、`test` に渡す関数の前に `async` キーワードを記述する
   title="mock"
 ></iframe>
 
-より詳しい情報は [Jest公式ドキュメント モック関数](https://jestjs.io/ja/docs/mock-functions) を参照してください。
+より詳しい情報は [Jest公式ドキュメント モック関数](https://jestjs.io/ja/docs/mock-functions) をご参照ください。
