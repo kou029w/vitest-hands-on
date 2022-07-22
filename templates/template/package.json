@@ -5,7 +5,8 @@
   "main": "main.js",
   "type": "module",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "watch": "jest --watchAll"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.18.9",

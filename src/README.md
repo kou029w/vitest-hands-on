@@ -5,7 +5,7 @@ Jestを使ってどうやってテストするのか？といった疑問に答�
 テストを行っていくための最初の一歩になればと思います。
 
 <iframe
-  src="https://stackblitz.com/github/kou029w/jest-hands-on/tree/main/templates/template?embed=1&view=editor&terminal=test&file=sum.js,sum.test.js"
+  src="https://stackblitz.com/github/kou029w/jest-hands-on/tree/main/templates/template?embed=1&view=editor&terminal=watch&file=sum.js,sum.test.js"
   style="
     width: 100%;
     height: 640px;
