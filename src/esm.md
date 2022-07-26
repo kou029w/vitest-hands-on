@@ -37,13 +37,11 @@ Babelには、調整済みの設定を利用するためのプリセットと呼
 
 ```json
 {
-  "presets": ["@babel/preset-env"],
-  "targets": "current node"
+  "presets": ["@babel/preset-env"]
 }
 ```
 
-これは「現在実行しているNode.jsの向けの変換を行う」という意味です。
 Babelを使用するプロジェクトは、`babel.config.json` というファイルなどによって設定を行います。
+より詳しい設定項目に関する情報は [Babel公式ドキュメント > Config Reference](https://babeljs.io/docs/en/options) をご参照ください。
 
-これで、JestでESMをテストすることができるようになりました。
-それではさっそく、ESMのテストを作成してみましょう。
+これでBabelの設定ができたので、JestからESMをテストできるようになりました。それではさっそくテストしてみましょう。
