@@ -15,8 +15,7 @@ jobs:
       - uses: actions/cache@v3
         with:
           path: ${{ steps.brew_cache.outputs.dir }}
-          key: brew-${{ hashFiles('**/Brewfile.lock.json') }}
-          restore-keys: brew-
+          key: brew-v3
       - name: Git config
         run: |
           git config user.name bot
