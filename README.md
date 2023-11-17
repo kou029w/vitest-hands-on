@@ -4,14 +4,12 @@
 
 ### 前提
 
-- Ubuntu 20.04 LTS
-- Homebrew
+- mdBook
 
 ### 手順
 
 下記のコマンドを実行すると `book` ディレクトリ以下にファイルが生成されます。
 
 ```sh
-brew bundle
 mdbook build
 ```
