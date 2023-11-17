@@ -15,7 +15,6 @@
   "devDependencies": {
     "@babel/preset-env": "^7.20.2",
     "jest": "^29.4.3",
-    "prettier": "^3.0.0",
-    "prettier-plugin-md-nocjsp": "^1.5.1"
+    "prettier": "^3.0.0"
   }
 }
