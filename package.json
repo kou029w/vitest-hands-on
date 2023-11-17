@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "test": "jest src && yarn workspaces run test",
-    "format": "prettier --ignore-path .gitignore --write ."
+    "format": "prettier --write ."
   },
   "devDependencies": {
     "@babel/preset-env": "^7.20.2",
