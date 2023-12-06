@@ -1,10 +1,12 @@
+import { expect, test } from "vitest";
+
 test("正しくJSONをパースできる", () => {
   // 準備
-  const json = `{ "name": "太郎", "age": 20 }`;
+  const json = `{ "name": "Claude Monet", "birth": "1840" }`;
 
   // 実行
   const parsed = JSON.parse(json);
 
   // 検証
-  expect(parsed).toEqual({ name: "太郎", age: 20 });
+  expect(parsed).toEqual({ name: "Claude Monet", birth: "1840" });
 });

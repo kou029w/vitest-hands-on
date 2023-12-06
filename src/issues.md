@@ -1,3 +1,3 @@
 # 質問・提案・問題の報告
 
-もし何か気になることがあれば、[GitHub Issues](https://github.com/kou029w/jest-hands-on/issues/new) からお気軽にお寄せください。
+もし何か気になることがあれば、[GitHub Issues](https://github.com/kou029w/vitest-hands-on/issues/new) からお気軽にお寄せください。

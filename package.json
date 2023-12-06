@@ -1,5 +1,5 @@
 {
-  "name": "jest-hands-on",
+  "name": "vitest-hands-on",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
@@ -9,12 +9,11 @@
     "templates/*"
   ],
   "scripts": {
-    "test": "jest src && npm test --workspaces",
+    "test": "vitest run src && npm test --workspaces",
     "format": "prettier --write ."
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.23.3",
-    "jest": "^29.7.0",
-    "prettier": "^3.0.0"
+    "vitest": "^1.0.1",
+    "prettier": "^3.1.0"
   }
 }

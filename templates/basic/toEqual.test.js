@@ -1,7 +1,7 @@
-/** @license https://github.com/facebook/jest/blob/master/LICENSE */
+import { expect, test } from "vitest";
 
-test("object assignment", () => {
-  const data = { one: 1 };
-  data["two"] = 2;
-  expect(data).toEqual({ one: 1, two: 2 });
+test("プロパティを代入する", () => {
+  const data = { name: "Claude Monet" };
+  Object.assign(data, { birth: "1840" });
+  expect(data).toEqual({ name: "Claude Monet", birth: "1840" });
 });

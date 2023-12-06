@@ -1,6 +1,6 @@
 # 事前準備
 
-JestはNode.jsで実行します。
+VitestはNode.jsで実行します。
 あらかじめNode.jsの実行環境を構築してからはじめます。
 
 ## StackBlitzではじめる

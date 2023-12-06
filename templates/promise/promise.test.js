@@ -1,23 +1,12 @@
-/** @license https://github.com/facebook/jest/blob/master/LICENSE */
+import { expect, test } from "vitest";
 
-// ダミー
-const fetchData = () => Promise.resolve("peanut butter");
+const fetchData = () => Promise.resolve(42);
 
-test("the data is peanut butter - return promise", () => {
-  return fetchData().then((data) => {
-    expect(data).toBe("peanut butter");
-  });
-});
-
-test("the data is peanut butter - return promise with resolves", () => {
-  return expect(fetchData()).resolves.toBe("peanut butter");
-});
-
-test("the data is peanut butter - async/await", async () => {
+test("データは42 - async/await", async () => {
   const data = await fetchData();
-  expect(data).toBe("peanut butter");
+  expect(data).toBe(42);
 });
 
-test("the data is peanut butter - async/await with resolves", async () => {
-  await expect(fetchData()).resolves.toBe("peanut butter");
+test("データは42 - async/await with resolves", async () => {
+  await expect(fetchData()).resolves.toBe(42);
 });

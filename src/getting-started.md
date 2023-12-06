@@ -1,39 +1,36 @@
 # はじめてのテスト
 
-ターミナルから `npm` コマンドでJestをインストールします。
+ターミナルから `npm` コマンドでVitestをインストールします。
 
 ```bash
-npm i -D jest
+npm i -D vitest
 ```
 
 または
 
 ```bash
-npm install --save-dev jest
+npm install --save-dev vitest
 ```
 
-いずれかのコマンドを実行することでJestがインストールされます。
-ここでインストールしたJestは、このプロジェクトの開発用の依存関係として追加されます。
-つまり、これ以降このプロジェクトは `npm install` コマンドを実行することでJestを導入できるようになります。
+いずれかのコマンドを実行することでVitestがインストールされます。
+ここでインストールしたVitestは、このプロジェクトの開発用の依存関係として追加されます。
+つまり、これ以降このプロジェクトは `npm install` コマンドを実行することでVitestを導入できるようになります。
 
-インストールしたJestは、`npx jest` コマンドを使用することで実行できます。
+インストールしたVitestは、`npx vitest` コマンドを使用することで実行できます。
 
 ```bash
-npx jest
+npx vitest
 ```
 
 しかし、まだテストが1件も存在しないのでこのコマンドは失敗します。
 
 ```console
-$ npx jest
-No tests found, exiting with code 1
-Run with `--passWithNoTests` to exit with code 0
-In /home/user/projects/jest-hands-on
-  11 files checked.
-  testMatch: **/__tests__/**/*.[jt]s?(x), **/?(*.)+(spec|test).[tj]s?(x) - 0 matches
-  testPathIgnorePatterns: /node_modules/ - 11 matches
-  testRegex:  - 0 matches
-Pattern:  - 0 matches
+$ npx vitest
+include: **/*.{test,spec}.?(c|m)[jt]s?(x)
+exclude:  **/node_modules/**, **/dist/**, **/cypress/**, **/.{idea,git,cache,output,temp}/**, **/{karma,rollup,webpack,vite,vitest,jest,ava,babel,nyc,cypress,tsup,build}.config.*
+watch exclude:  **/node_modules/**, **/dist/**
+
+No test files found, exiting with code 1
 ```
 
 実際にテストを作成し、実行していきましょう。
@@ -44,30 +41,33 @@ Pattern:  - 0 matches
 {{#include getting-started/hello.test.js}}
 ```
 
-この作成した `hello.test.js` は、`npx jest` コマンドを実行するときにテストとして実行されるようになります。
+この作成した `hello.test.js` は、`npx vitest` コマンドを実行するときにテストとして実行されるようになります。
 
 ```console
-$ npx jest
- PASS  ./hello.test.js
-  ✓ 1と2の合計は3です (1 ms)
+$ npx vitest
+ ✓ hello.test.js (1)
+   ✓ 1と2の合計は3です
 
-Test Suites: 1 passed, 1 total
-Tests:       1 passed, 1 total
-Snapshots:   0 total
-Time:        0.204 s
-Ran all test suites.
+ Test Files  1 passed (1)
+      Tests  1 passed (1)
+   Start at  16:38:04
+   Duration  264ms (transform 20ms, setup 0ms, collect 9ms, tests 2ms, environment 0ms, prepare 68ms)
+
+
+ PASS  Waiting for file changes...
+       press h to show help, press q to quit
 ```
 
 問題なく実行できましたか？
-気付いた人もいるかと思いますが、
+実行終了するには、キーボードの `q` を押します。
 
 ```
- PASS  ./hello.test.js
+ ✓ hello.test.js (1)
 ```
 
-とあるのは、「テスト `hello.test.js` が実行され、そのテストは合格 (pass) しました」ということを意味します。
+画面に表示されたこの部分は「テスト `hello.test.js` が実行され、そのテストは合格しました ✅」ということを意味しています。
 
-このようにしてJestは簡単にテストを行うことができます。
+このようにしてVitestは簡単にテストを行うことができます。
 
 ## はじめてのテストのコードの説明
 
@@ -81,7 +81,14 @@ Ran all test suites.
 
 このコードは、「1と2の合計は3です」というテストを意味します。
 式 `1 + 2` が、 `3` と等しいことを検証するテストです。
-下記のJestの機能が使われています。
+
+Vitestを使用するため、最初の行は `import` 文によって `vitest` を指定しています。
+
+```js
+{{#include getting-started/hello.test.js:1}}
+```
+
+そして、下記のVitestの機能が使われています。
 
 `test()` 関数
 
@@ -92,11 +99,11 @@ Ran all test suites.
 
 `expect()` 関数
 
-引数に与えた値をテストします。
+引数に与えた値を検証します。
 
-`.toBe()` メソッド
+`expect(<検査される値>).toBe(<期待する値>)`
 
-与えた値との同一性を検証します。
+「検査される値」と「期待する値」の同一性を検証します。
 
-このコードは、Jestの基本的な機能を確認するための極めて単純なテストですが、テスト環境自体の検証を行うことでもあります。
+このコードは、Vitestの基本的な機能を確認するための極めて単純なテストですが、テスト環境自体の検証を行うことでもあります。
 テスト環境の検証は、テストを行う上で最初に確認しておく重要なポイントです。

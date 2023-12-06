@@ -1,8 +1,8 @@
 # 参考文献・動画
 
-## Jest
+## Vitest
 
-[Jest公式サイト](https://jestjs.io/ja)
+[Vitest公式サイト](https://vitest.dev/)
 
 ## テスト駆動開発
 

@@ -1,5 +1,5 @@
-/** @license https://github.com/facebook/jest/blob/master/LICENSE */
+import { expect, test } from "vitest";
 
-test("two plus two is four", () => {
+test("2と2の和は4", () => {
   expect(2 + 2).toBe(4);
 });

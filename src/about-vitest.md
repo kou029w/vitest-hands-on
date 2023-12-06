@@ -1,8 +1,8 @@
-# Jestとは
+# Vitestとは
 
-Jest公式サイト: [https://jestjs.io/ja](https://jestjs.io/ja)
+Vitest公式サイト: <https://vitest.dev/>
 
-Jestは、JavaScriptのテストを行うためのフレームワークです。
+Vitestは、JavaScriptのテストを行うためのフレームワークです。
 2022年現在、JavaScriptを使用する多くの開発者が使用している人気のツールです。
 
 > ![ランキング](assets/2022_stateofjs_libraries_testing_ranking.png)
