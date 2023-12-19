@@ -13,11 +13,11 @@ import {
  *   トップ - beforeAll → グループ1 - beforeAll
  *     → トップ - beforeEach → グループ1 - beforeEach
  *       → グループ1 - test 1
- *     → トップ - afterEach → グループ1 - afterEach
+ *     → グループ1 - afterEach → トップ - afterEach
  *     → トップ - beforeEach → グループ1 - beforeEach
  *       → グループ1 - test 2
- *     → トップ - afterEach → グループ1 - afterEach
- *   → トップ - afterAll → グループ1 - afterAll
+ *     → グループ1 - afterEach → トップ - afterEach
+ *   → グループ1 - afterAll → トップ - afterAll
  */
 
 beforeAll(() => console.log("トップ - beforeAll"));
