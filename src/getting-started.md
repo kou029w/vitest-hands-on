@@ -85,7 +85,7 @@ $ npx vitest
 Vitestを使用するため、最初の行は `import` 文によって `vitest` を指定しています。
 
 ```js
-{{#include getting-started/hello.test.js:1}}
+{{#include getting-started/hello.test.js:2}}
 ```
 
 そして、下記のVitestの機能が使われています。
