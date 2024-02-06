@@ -4,6 +4,7 @@ language = "ja"
 title = "Vitestではじめるテスト"
 
 [output.html]
+additional-js = ["external-links.js", "regexp-search.js"]
 edit-url-template = "https://github.com/kou029w/vitest-hands-on/edit/main/{path}"
 git-repository-url = "https://github.com/kou029w/vitest-hands-on"
 site-url = "/vitest-hands-on/"
