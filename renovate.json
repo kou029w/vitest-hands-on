@@ -4,7 +4,6 @@
     "config:recommended",
     "config:semverAllMonthly",
     ":automergeAll",
-    ":automergeBranch",
-    ":skipStatusChecks"
+    ":automergeBranch"
   ]
 }
