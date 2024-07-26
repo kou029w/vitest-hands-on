@@ -2,9 +2,9 @@
 
 Vitest公式サイト: <https://vitest.dev/>
 
-Vitestは、JavaScriptのテストを行うためのフレームワークです。
-2022年現在、JavaScriptを使用する多くの開発者が使用している人気のツールです。
+VitestはJavaScriptのテストを行うためのフレームワークです。
+2023年現在、JavaScriptを使用する開発者の中で最も関心を集めているテストツールです。
 
-> ![ランキング](assets/2022_stateofjs_libraries_testing_ranking.png)
+> ![ランキング](assets/2023_stateofjs_libraries_testing_ranking.png)
 >
-> ―― 画像の出典: [2022.stateofjs.com](https://2022.stateofjs.com/ja-JP/libraries/testing/)
+> ―― 画像の出典: [2023.stateofjs.com](https://2023.stateofjs.com/ja-JP/libraries/testing/)
