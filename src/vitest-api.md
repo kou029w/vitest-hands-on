@@ -54,7 +54,7 @@ Vitestの代表的な機能を紹介します。
 
 ### その他
 
-より詳しい情報は [Vitest公式リファレンス](https://vitest.dev/api/expect) をご参照ください。
+より詳しい情報は [Vitest公式リファレンス](https://vitest.dev/api/expect) をご覧ください。
 
 ## Promise
 
@@ -72,7 +72,7 @@ Vitestは、`test` に渡す関数の前に `async` キーワードを記述す�
   title="promise"
 ></iframe>
 
-より詳しい情報は [Vitest公式ドキュメント resolves](https://vitest.dev/api/expect#resolves) をご参照ください。
+より詳しい情報は [Vitest公式ドキュメント resolves](https://vitest.dev/api/expect#resolves) をご覧ください。
 
 ## beforeEach と afterEach
 
@@ -90,7 +90,7 @@ Vitestは、`test` に渡す関数の前に `async` キーワードを記述す�
   title="scope"
 ></iframe>
 
-より詳しい情報は [Vitest公式ドキュメント Setup and Teardown](https://vitest.dev/api/#setup-and-teardown) をご参照ください。
+より詳しい情報は [Vitest公式ドキュメント Setup and Teardown](https://vitest.dev/api/#setup-and-teardown) をご覧ください。
 
 ## モック
 
@@ -108,4 +108,4 @@ Vitestは、`test` に渡す関数の前に `async` キーワードを記述す�
   title="mock"
 ></iframe>
 
-より詳しい情報は [Vitest公式ドキュメント Mock Functions](https://vitest.dev/api/mock) をご参照ください。
+より詳しい情報は [Vitest公式ドキュメント Mock Functions](https://vitest.dev/api/mock) をご覧ください。
